@@ -20,13 +20,13 @@ const products = {
     { name: "Double Black 1L", price: "$2.100", img: "https://clink.ph/cdn/shop/products/WEB-johnnie-walker-double-black.png?v=1750646497" },
     { name: "Black Label 1L", price: "$1.650", img: "https://tadadelivery.com.uy/cdn/shop/files/whisky-johnnie-walker-black-label-750-ml-Photoroom.png?v=1748011504" },
     { name: "Red Label 1L", price: "$800", img: "https://cdn.awsli.com.br/800x800/2649/2649600/produto/234522026/jw-red-label---750ml--2xw11xihix.png" },
-    { name: "Buchanans Deluxe", price: "$1.900", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Chivas Regal 12 años 1L", price: "$1.650", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Jack Daniels N7 1L", price: "$1.350", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Jack Daniels Apple 1L", price: "$1.350", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Jack Daniels Honey 1L", price: "$1.350", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "The Famous Grouse 1L", price: "$1.100", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Jameson 1L", price: "$950", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Buchanans Deluxe", price: "$1.900", img: "https://i.pinimg.com/736x/a9/ba/93/a9ba93d63276356ba5fe3d6f2a312f70.jpg" },
+    { name: "Chivas Regal 12 años 1L", price: "$1.650", img: "https://www.boozeit.com.au/cdn/shop/products/382072-1.png?v=1680681204" },
+    { name: "Jack Daniels N7 1L", price: "$1.350", img: "https://desaonline.vtexassets.com/arquivos/ids/160621/jack-n7-1L_Mesa-de-trabajo-1.png?v=638291751625830000" },
+    { name: "Jack Daniels Apple 1L", price: "$1.350", img: "https://cheers.com.np/uploads/products/76307263224386160728669066808496613407061.png" },
+    { name: "Jack Daniels Honey 1L", price: "$1.350", img: "https://alcomarket.md/public/products/thumbs/978b40e376cd1463440945d63d686a2f.png" },
+    { name: "The Famous Grouse 1L", price: "$1.100", img: "https://cavatzortzatos.gr/wp-content/uploads/2024/05/The-Famous-Grouse-1L.png" },
+    { name: "Jameson 1L", price: "$950", img: "https://tadadelivery.com.uy/cdn/shop/files/jameson-botella-Photoroom.png?v=1748007089" }
   ],
   Vodka: [
     { name: "Absolut 1L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" },
