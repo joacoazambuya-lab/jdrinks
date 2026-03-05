@@ -14,12 +14,12 @@ const products = {
     { name: "Rojo + Coca 3L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" }
   ],
   Whisky: [
-    { name: "Blue Label 750ml", price: "$10.500", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Green Label 750ml", price: "$3.500", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Gold Label 750ml", price: "$2.700", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Double Black 1L", price: "$2.100", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Black Label 1L", price: "$1.650", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Red Label 1L", price: "$800", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Blue Label 750ml", price: "$10.500", img: "https://e7.pngegg.com/pngimages/718/1015/png-clipart-blended-whiskey-scotch-whisky-wine-distilled-beverage-wine-distilled-beverage-label-thumbnail.png" },
+    { name: "Green Label 750ml", price: "$3.500", img: "https://www.wineandbeyond.ca/cdn/shop/files/1002369_1.png?v=1745942779" },
+    { name: "Gold Label 750ml", price: "$2.700", img: "https://licoresinmemorial.com/wp-content/uploads/2023/04/335641-800-auto.png" },
+    { name: "Double Black 1L", price: "$2.100", img: "https://clink.ph/cdn/shop/products/WEB-johnnie-walker-double-black.png?v=1750646497" },
+    { name: "Black Label 1L", price: "$1.650", img: "https://tadadelivery.com.uy/cdn/shop/files/whisky-johnnie-walker-black-label-750-ml-Photoroom.png?v=1748011504" },
+    { name: "Red Label 1L", price: "$800", img: "https://cdn.awsli.com.br/800x800/2649/2649600/produto/234522026/jw-red-label---750ml--2xw11xihix.png" },
     { name: "Buchanans Deluxe", price: "$1.900", img: "PEGAR_LINK_PNG_AQUI" },
     { name: "Chivas Regal 12 años 1L", price: "$1.650", img: "PEGAR_LINK_PNG_AQUI" },
     { name: "Jack Daniels N7 1L", price: "$1.350", img: "PEGAR_LINK_PNG_AQUI" },
