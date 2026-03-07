@@ -2,18 +2,29 @@ import React from "react";
 
 const products = {
   Combos: [
-    { name: "2 Black Label", price: "$3190", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "3 Jager", price: "$2000", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "3 Red Label", price: "$2200", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Red Label + 12 Monster", price: "$1900", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Double Black + 6 Monster", price: "$2600", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Green Label + 6 Monster", price: "$4050", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "2 Chivas Regal", price: "$3190", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "2 Beefeater (Frutilla/Durazno)", price: "$1500", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "2 Fernet + 2 Coca 3L", price: "$1560", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Rojo + Coca 3L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Black Label + 6 Monster", price: "$2150", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Gold Label + Jager + 8 Monster", price: "$4050", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Red Label + Jager + Chandon + Fernet", price: "$2890", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Gold Label + 6 Monster", price: "$3190", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Chandon + 6 Monster", price: "$1520", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "2 Absolut 1L", price: "$1850", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Red Label + Jager + 12 RedBull", price: "$2490", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Absolut 1L + 6 Monster", price: "$1450", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Red Label + Jager + 6 Monster", price: "$2000", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Jager + Fernet + 6 Monster", price: "$1850", img: "PEGAR_LINK_PNG_AQUI" },
+
+    { name: "Black + Jager + 8 Monster", price: "$3050", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Red Label + Jager + 9 Monster", price: "$2350", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Red Label + Jager + 6 Monster", price: "$2000", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Jack Daniels (Miel/Manzana/N7) + 6 Monster", price: "$1950", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "2 Red Label + Jager + 12 Monster", price: "$3350", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Black Label + Absolut 1L + 8 Monster", price: "$3300", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Jager + 6 Monster", price: "$1250", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "Red Label + 6 Monster", price: "$1340", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "2 Jager + 6 Monster", price: "$1900", img: "PEGAR_LINK_PNG_AQUI" },
+    { name: "2 Red Label + 6 Monster", price: "$2050", img: "PEGAR_LINK_PNG_AQUI" }
   ],
-  Whisky: [
+   Whisky: [
     { name: "Blue Label 750ml", price: "$10.500", img: "https://thechamber.my/files/product_img/973/Johnnie-Walker-Blue-Label.png" },
     { name: "Green Label 750ml", price: "$3.500", img: "https://www.wineandbeyond.ca/cdn/shop/files/1002369_1.png?v=1745942779" },
     { name: "Gold Label 750ml", price: "$2.700", img: "https://licoresinmemorial.com/wp-content/uploads/2023/04/335641-800-auto.png" },
@@ -82,14 +93,14 @@ export default function JDrinksCatalog() {
                   key={index}
                   className="bg-black/60 rounded-2xl shadow-2xl p-6 text-center hover:scale-105 transition-transform duration-300 border border-orange-500 flex flex-col items-center"
                 >
-                  <div className="w-full aspect-square bg-black/40 rounded-xl flex items-center justify-center p-6">
+                  <div className="w-full h-48 bg-black/40 rounded-xl flex items-center justify-center p-4 overflow-hidden">
                     <img
                       src={product.img}
                       alt={product.name}
-                      className="max-h-full max-w-full object-contain"
+                      className="h-full w-full object-contain"
                     />
                   </div>
-                  <h3 className="mt-6 text-lg font-bold" className="mt-4 text-lg font-bold">{product.name}</h3>
+                  <h3 className="mt-4 text-lg font-bold">{product.name}</h3>
                   <p className="text-2xl text-yellow-400 font-extrabold mt-2">
                     {product.price}
                   </p>
