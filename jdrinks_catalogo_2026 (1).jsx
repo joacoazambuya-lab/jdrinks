@@ -40,34 +40,35 @@ const products = {
     { name: "Jameson 1L", price: "$950", img: "https://tadadelivery.com.uy/cdn/shop/files/jameson-botella-Photoroom.png?v=1748007089" }
   ],
   Vodka: [
-    { name: "Absolut 1L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Absolut Peach 1L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Absolut Raspberry 1L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Absolut Mango 1L", price: "$990", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Smirnoff 750ml", price: "$500", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "SKY Vodka", price: "$570", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Absolut 1L", price: "$990", img: "https://cdn11.bigcommerce.com/s-x3kq5bcr0e/images/stencil/608x608/products/11399/6975/Absolut_Vodka_1L-1__11832.1739697446.png?c=1" },
+    { name: "Absolut Peach 1L", price: "$990", img: "https://assets.liquidcommerce.co/catalog/images/3693.png" },
+    { name: "Absolut Raspberry 1L", price: "$990", img: "https://vinosylicores.com/cdn/shop/files/Absolut-Raspberri-750ml-Front-Standard-Transparent-Background-LR.png?v=1751664461&width=1214" },
+    { name: "Absolut Mango 1L", price: "$990", img: "https://winevins.com/cdn/shop/files/Absolut_Mango_808655a1-7718-40e5-a171-2a8a8527225d_1024x1024.png?v=1743366942" },
+    { name: "Smirnoff 750ml", price: "$500", img: "https://www.pngplay.com/wp-content/uploads/15/Smirnoff-Vodka-PNG-Free-File-Download.png" },
+    { name: "SKY Vodka", price: "$570", img: "https://canillalibre.uy/wp-content/uploads/2021/04/3282CE91-AC1D-46EF-B50C-7ECF98F84A0B.png" }
   ],
   Licores_y_Ron: [
-    { name: "Jagermeister 750ml", price: "$690", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Aperol 750ml", price: "$650", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Tequila Jose Cuervo Gold 750ml", price: "$890", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Ron Bacardi Carta de Oro 750ml", price: "$640", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Ron Capitan Morgan 750ml", price: "$650", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Ron Carabelas 1L", price: "$390", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Jagermeister 750ml", price: "$690", img: "https://tadadelivery.com.uy/cdn/shop/files/jager-Photoroom.png?v=1748005695" },
+    { name: "Aperol 750ml", price: "$650", img: "https://distribuidoramym2.uy/wp-content/uploads/2025/02/Diseno-sin-titulo-31.png" },
+    { name: "Tequila Jose Cuervo Gold 750ml", price: "$890", img: "https://clink.ph/cdn/shop/products/WEB-jose-cuervo-especial-gold.png?v=1750646196" },
+    { name: "Ron Bacardi Carta de Oro 750ml", price: "$640", img: "https://tadadelivery.com.uy/cdn/shop/files/CEPAS_BOTELLAS-04_819f559b-f963-42c0-9e7e-58cd46f6004f-Photoroom.png?v=1748009824&width=530" },
+    { name: "Ron Capitan Morgan 750ml", price: "$650", img: "https://distribuidoramym2.uy/wp-content/uploads/2025/02/Diseno-sin-titulo-66.png" },
+    { name: "Ron Carabelas 1L", price: "$390", img: "https://distribuidoramym2.uy/wp-content/uploads/2025/02/blanco-20.png" }
   ],
   Gin: [
-    { name: "Bombay 750ml", price: "$800", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Tanqueray 750ml", price: "$790", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Beefeater Naranja 750ml", price: "$780", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Beefeater Frutilla 750ml", price: "$780", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Gordons 750ml", price: "$590", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Bombay 750ml", price: "$800", img: "https://cachi.uy/wp-content/uploads/Gin_Bombay_Sapphire_1.png" },
+    { name: "Tanqueray 750ml", price: "$790", img: "https://tadadelivery.com.uy/cdn/shop/files/Gintanqueray-Photoroom.png?v=1748010321&width=1000" },
+    { name: "Beefeater Naranja 750ml", price: "$780", img: "https://ik.imagekit.io/cvygf2xse/beefeatergin/wp-content/uploads/2022/10/Beefeater-Blood-Orange-Gin-front-view-aspect-ratio-189-599-7.png?tr=q-80,w-340" },
+    { name: "Beefeater Frutilla 750ml", price: "$780", img: "https://www.beefeatergin.com/wp-content/uploads/2023/01/Beefeater-Pink-Strawberry-Gin-aspect-ratio-320-540.png" },
+    { name: "Gordons 750ml", price: "$590", img: "https://distribuidoramym2.uy/wp-content/uploads/2025/02/blanco-18.png" }
   ],
   Fernet: [
-    { name: "Fernet Branca 750ml", price: "$590", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Fernet Branca 750ml", price: "$590", img: "https://tadadelivery.com.uy/cdn/shop/files/SKU_Branca_975.png?v=1715958472" }
+    { name: "Fernet 1882 750ml", price: "$430", img: "https://distribuidoramym2.uy/wp-content/uploads/2025/02/Diseno-sin-titulo-52.png" } 
   ],
   Vinos_y_Espumantes: [
-    { name: "Vino Rosado Santa Teresa 1L", price: "$133", img: "PEGAR_LINK_PNG_AQUI" },
-    { name: "Chandon", price: "$930", img: "PEGAR_LINK_PNG_AQUI" }
+    { name: "Vino Santa Teresa 1L", price: "$133", img: "https://distribuidoramym2.uy/wp-content/uploads/2025/02/red-blend-7.png" },
+    { name: "Chandon", price: "$930", img: "https://vinotecamasis.com.ar/wp-content/uploads/2025/04/Espumante-Chandon-Extra-Brut.png" }
   ]
 };
 
